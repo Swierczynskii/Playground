@@ -1,0 +1,21 @@
+Gemini-generated synthetic data
+
+Przykład 1: Przestępczość gospodarcza (Wyłudzenie)
+
+    W dniu 14 lutego 2023 roku funkcjonariusze Wydziału do walki z Przestępczością Gospodarczą zatrzymali Jana Marka Kowalskiego, urodzonego 12 marca 1980 roku w Płocku. Podejrzany, legitymujący się dowodem osobistym o numerze ARY 654321 oraz numerem PESEL 80031205512, jest oskarżony o fałszowanie dokumentacji kredytowej. Zatrzymania dokonano w miejscu zamieszkania podejrzanego, tj. w Warszawie przy ulicy Złotej 44 m. 12. Podczas przeszukania lokalu zabezpieczono laptopa marki Dell oraz telefon komórkowy powiązany z numerem +48 601-234-567, zarejestrowanym na jego żonę, Annę Kowalską. Jan Kowalski przyznał się do wyłudzenia kwoty 50 000 PLN na szkodę banku PKO BP.
+
+Przykład 2: Przestępczość pospolita (Rozbój)
+
+    Sprawcą pobicia, do którego doszło w nocy z soboty na niedzielę w okolicy Dworca Głównego w Krakowie, okazał się Sebastian „Siwy” Nowak. Mężczyzna, zameldowany na stałe przy ul. Długiej 15/4 w Katowicach (kod pocztowy 40-001), był wcześniej notowany za podobne wykroczenia. Poszkodowany, Piotr Zieliński (zam. Wieliczka, ul. Solna 8), rozpoznał napastnika podczas okazania. W aktach sprawy odnotowano, że sprawca posiada charakterystyczny tatuaż na szyi oraz cierpi na przewlekłą astmę, co potwierdza karta medyczna znaleziona przy nim (nr karty pacjenta: MED-99821). Sebastian Nowak, legitymujący się PESEL-em 95121209876, został osadzony w areszcie śledczym przy ulicy Montelupich.
+
+Przykład 3: Przestępczość narkotykowa
+
+    W toku czynności operacyjnych ustalono, że głównym dystrybutorem środków odurzających na terenie dzielnicy Bałuty jest Krzysztof Wiśniewski, posługujący się pseudonimem „Chemik”. Podejrzany prowadzi nieoficjalną działalność w garażu przy ul. Wojska Polskiego 120 w Łodzi. Podczas obserwacji z dnia 05.06.2024 r. zarejestrowano transakcję sprzedaży 50 gramów amfetaminy, której nabywcą był Michał Lewandowski (nr dowodu CDE 112233, PESEL 01251504455). Wiśniewski, urodzony 04.04.1988 r., posługuje się prywatnym adresem e-mail: krzysztof.wisnia88@poczta.onet.pl, z którego prowadził korespondencję z klientami. W jego mieszkaniu przy ul. Spornej 5 zabezpieczono gotówkę w kwocie 120 000 złotych.
+
+Przykład 4: Cyberprzestępczość (Kradzież tożsamości)
+
+    Zawiadomienie o popełnieniu przestępstwa złożyła Grażyna Dąbrowska, zamieszkała w Poznaniu na osiedlu Rusa 12 m. 50. Kobieta poinformowała, że nieznany sprawca wykorzystał jej dane osobowe, w tym numer PESEL 75090912345 oraz serię dowodu DOX 987654, do zaciągnięcia trzech pożyczek w firmach typu „chwilówka”. Śledztwo wykazało, że logowania na konto bankowe pokrzywdzonej następowały z adresu IP 192.168.1.15, który przypisany jest do lokalu zajmowanego przez Tomasza Wójcika w Gdańsku przy ulicy Długi Targ 3. Tomasz Wójcik (ur. 1999-11-20) jest studentem informatyki na Politechnice Gdańskiej i był już wcześniej karany za hacking.
+
+Przykład 5: Wykroczenia drogowe i ucieczka
+
+    Kierujący pojazdem marki BMW o numerze rejestracyjnym DW 45678, zignorował sygnały do zatrzymania się i podjął próbę ucieczki ulicami Wrocławia. Pościg zakończył się na skrzyżowaniu ulic Legnickiej i Milenijnej, gdzie sprawca spowodował kolizję z autobusem miejskim. Kierowcą okazał się Robert Kamiński, lat 45, zamieszkały we Wrocławiu przy Placu Grunwaldzkim 10/2. Badanie alkomatem wykazało 2,5 promila alkoholu w wydychanym powietrzu. Przy zatrzymanym ujawniono prawo jazdy kategorii B o numerze 05588/22/WR, wydane przez Prezydenta Wrocławia, oraz dokumentację medyczną wskazującą na leczenie psychiatryczne w ośrodku przy ul. Kraszewskiego 25 (pacjent: Robert Kamiński, PESEL 78010133221).
