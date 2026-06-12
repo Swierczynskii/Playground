@@ -9,7 +9,7 @@ The repository is organized by language, one root directory each:
 | ----------- | -------- | --------------------------------------------------- |
 | `python/`   | Python   | Python experiments / NLP / webdev / Data Engineering    |
 | `scala/`    | Scala    | Scala experiments / Data Engineering / backend development    |
-| `react/`    | React    | React / frontend experiments               |
+| `react/`    | TypeScript    | React / frontend experiments               |
 | `rust/`     | Rust     | Rust / backend /  Tauri experiments               |
 
 ## Layout
