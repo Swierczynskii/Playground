@@ -1,17 +1,16 @@
 # Playground
 
 A personal playground for learning and experimenting with new languages,
-tools, and ideas. Nothing here is production code — it's a place to try
-things, break things, and learn.
+tools, and ideas. It's a place to try things, break things, and learn.
 
 The repository is organized by language, one root directory each:
 
-| Directory   | Language | Status                                              |
+| Directory   | Language | Description                                              |
 | ----------- | -------- | --------------------------------------------------- |
-| `python/`   | Python   | Polish NLP comparison (spaCy / Stanza / Trankit)    |
-| `scala/`    | Scala    | Learning notes and conventions (scaffold pending)   |
-| `react/`    | React    | Empty — to be filled with experiments               |
-| `rust/`     | Rust     | Empty — to be filled with experiments               |
+| `python/`   | Python   | Python experiments / NLP / webdev / Data Engineering    |
+| `scala/`    | Scala    | Scala experiments / Data Engineering / backend development    |
+| `react/`    | React    | React / frontend experiments               |
+| `rust/`     | Rust     | Rust / backend /  Tauri experiments               |
 
 ## Layout
 

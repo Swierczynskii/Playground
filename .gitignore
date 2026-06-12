@@ -5,3 +5,6 @@ stanza_resources
 differences/
 
 results/
+
+# Rust
+target/
