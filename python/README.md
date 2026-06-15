@@ -17,3 +17,6 @@ python nlp_comparison.py
 ```
 
 Sample input data lives in `examples.txt` (synthetic Polish text).
+
+TO DO
+Add morfeusz2

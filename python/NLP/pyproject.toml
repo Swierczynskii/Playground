@@ -1,7 +1,7 @@
 [project]
 name = "nlp-comparison"
 version = "0.1.0"
-description = "Polish NLP comparison using spaCy, Stanza, and Trankit."
+description = "Polish NLP comparison using spaCy, Stanza, Trankit and Morfeusz2."
 requires-python = ">=3.10,<3.13"
 dependencies = [
   "stanza>=1.8.2",
