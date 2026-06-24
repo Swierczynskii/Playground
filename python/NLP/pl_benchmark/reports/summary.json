@@ -1,0 +1,242 @@
+{
+  "pipelines": [
+    {
+      "pipeline": "spacy",
+      "available": true,
+      "version": "3.8.14",
+      "model": "/home/jswie/Github/Playground/python/NLP/pl_benchmark/models/spacy/pl_core_news_lg",
+      "error": null,
+      "load_ms": 1858.186489000218,
+      "process_ms": 20.81203733299238,
+      "chars_per_second": 32096.809616089333,
+      "sentence_metrics": {
+        "available": true,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "predicted_count": 5,
+        "gold_count": 5,
+        "exact_text_match": true
+      },
+      "lemma_metrics": {
+        "available": true,
+        "top1_accuracy": 0.7142857142857143,
+        "candidate_accuracy": 0.7142857142857143,
+        "matched_probes": 14,
+        "probe_count": 15,
+        "missing_probes": [
+          "mieszkania"
+        ]
+      },
+      "pos_metrics": {
+        "available": true,
+        "top1_accuracy": 1.0,
+        "candidate_accuracy": 1.0,
+        "matched_probes": 14,
+        "probe_count": 15
+      },
+      "entity_metrics": {
+        "available": true,
+        "precision": 0.5833333333333334,
+        "recall": 0.7777777777777778,
+        "f1": 0.6666666666666666,
+        "predicted_count": 12,
+        "gold_count": 9
+      },
+      "notes": [
+        "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/.venv/bin/python"
+      ]
+    },
+    {
+      "pipeline": "stanza",
+      "available": true,
+      "version": "1.13.0",
+      "model": "tokenize,pos,lemma,ner",
+      "error": null,
+      "load_ms": 6105.038394001895,
+      "process_ms": 2089.3600400001255,
+      "chars_per_second": 319.7151219566542,
+      "sentence_metrics": {
+        "available": true,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "predicted_count": 5,
+        "gold_count": 5,
+        "exact_text_match": true
+      },
+      "lemma_metrics": {
+        "available": true,
+        "top1_accuracy": 0.9285714285714286,
+        "candidate_accuracy": 0.9285714285714286,
+        "matched_probes": 14,
+        "probe_count": 15,
+        "missing_probes": [
+          "mieszkania"
+        ]
+      },
+      "pos_metrics": {
+        "available": true,
+        "top1_accuracy": 1.0,
+        "candidate_accuracy": 1.0,
+        "matched_probes": 14,
+        "probe_count": 15
+      },
+      "entity_metrics": {
+        "available": true,
+        "precision": 0.7,
+        "recall": 0.7777777777777778,
+        "f1": 0.7368421052631577,
+        "predicted_count": 10,
+        "gold_count": 9
+      },
+      "notes": [
+        "resources_dir=/home/jswie/Github/Playground/python/NLP/pl_benchmark/models/stanza",
+        "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/.venv/bin/python"
+      ]
+    },
+    {
+      "pipeline": "morfeusz2",
+      "available": true,
+      "version": "1.99.15",
+      "model": "Morfeusz()",
+      "error": null,
+      "load_ms": 44.54603200065321,
+      "process_ms": 1.6759606672470302,
+      "chars_per_second": 398577.37299841974,
+      "sentence_metrics": {
+        "available": false,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "predicted_count": 0,
+        "gold_count": 5
+      },
+      "lemma_metrics": {
+        "available": true,
+        "top1_accuracy": 0.8571428571428571,
+        "candidate_accuracy": 1.0,
+        "matched_probes": 14,
+        "probe_count": 15,
+        "missing_probes": [
+          "mieszkania"
+        ]
+      },
+      "pos_metrics": {
+        "available": true,
+        "top1_accuracy": 1.0,
+        "candidate_accuracy": 1.0,
+        "matched_probes": 14,
+        "probe_count": 15
+      },
+      "entity_metrics": {
+        "available": false,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "predicted_count": 0,
+        "gold_count": 9
+      },
+      "notes": [
+        "Morfeusz2 is a non-disambiguating morphological analyzer; it returns all candidate lemmas/tags. Sentence and NER scores are intentionally N/A.",
+        "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/.venv/bin/python"
+      ]
+    },
+    {
+      "pipeline": "spacy-pl",
+      "available": true,
+      "version": "2.3.2",
+      "model": "pl_spacy_model_morfeusz",
+      "error": null,
+      "load_ms": 7463.360696998279,
+      "process_ms": 1009.4643416668987,
+      "chars_per_second": 661.7370940482665,
+      "sentence_metrics": {
+        "available": true,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75,
+        "predicted_count": 5,
+        "gold_count": 5,
+        "exact_text_match": false
+      },
+      "lemma_metrics": {
+        "available": true,
+        "top1_accuracy": 0.8571428571428571,
+        "candidate_accuracy": 0.8571428571428571,
+        "matched_probes": 14,
+        "probe_count": 15,
+        "missing_probes": [
+          "mieszkania"
+        ]
+      },
+      "pos_metrics": {
+        "available": true,
+        "top1_accuracy": 1.0,
+        "candidate_accuracy": 1.0,
+        "matched_probes": 14,
+        "probe_count": 15
+      },
+      "entity_metrics": {
+        "available": true,
+        "precision": 0.5384615384615384,
+        "recall": 0.7777777777777778,
+        "f1": 0.6363636363636364,
+        "predicted_count": 13,
+        "gold_count": 9
+      },
+      "notes": [
+        "pl_spacy_model_morfeusz on spaCy 2.2.4 (dedicated .venv).",
+        "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/pipelines/spacy_pl/.venv/bin/python"
+      ]
+    },
+    {
+      "pipeline": "spacy-pl-trf",
+      "available": true,
+      "version": "3.5.4",
+      "model": "pl_nask",
+      "error": null,
+      "load_ms": 3619.745542997407,
+      "process_ms": 307.39931966672884,
+      "chars_per_second": 2173.069220596263,
+      "sentence_metrics": {
+        "available": true,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "predicted_count": 5,
+        "gold_count": 5,
+        "exact_text_match": true
+      },
+      "lemma_metrics": {
+        "available": true,
+        "top1_accuracy": 0.8571428571428571,
+        "candidate_accuracy": 0.8571428571428571,
+        "matched_probes": 14,
+        "probe_count": 15,
+        "missing_probes": [
+          "mieszkania"
+        ]
+      },
+      "pos_metrics": {
+        "available": true,
+        "top1_accuracy": 0.9285714285714286,
+        "candidate_accuracy": 0.9285714285714286,
+        "matched_probes": 14,
+        "probe_count": 15
+      },
+      "entity_metrics": {
+        "available": true,
+        "precision": 0.7,
+        "recall": 0.7777777777777778,
+        "f1": 0.7368421052631577,
+        "predicted_count": 10,
+        "gold_count": 9
+      },
+      "notes": [
+        "pl_nask HerBERT transformer on spaCy 3.3 (dedicated .venv).",
+        "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/pipelines/spacy_pl_trf/.venv/bin/python"
+      ]
+    }
+  ]
+}

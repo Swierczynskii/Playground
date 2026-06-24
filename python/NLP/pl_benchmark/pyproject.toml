@@ -1,0 +1,20 @@
+[project]
+name = "pl-benchmark"
+version = "0.1.0"
+description = "Polish NLP comparison orchestrator + modern pipelines (spaCy, Stanza, Morfeusz2)."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "morfeusz2>=1.99.15",
+  "stanza>=1.8.2",
+  "spacy>=3.7.0",
+  "torch>=2.4.0",
+  "pl-bench-core",
+]
+
+# The orchestrator (comparison.py) and the three modern runner scripts run from
+# the source tree, so this project is not itself a package; only install deps.
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+pl-bench-core = { path = "shared", editable = true }

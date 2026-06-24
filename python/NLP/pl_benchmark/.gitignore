@@ -1,0 +1,17 @@
+# Virtual environments (main + per-pipeline)
+.venv/
+pipelines/*/.venv/
+
+# Locally downloaded models (populated by setup.sh)
+models/
+stanza_resources/
+
+# Build/editable-install artifacts
+*.egg-info/
+shared/src/*.egg-info/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/

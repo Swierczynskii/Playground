@@ -1,14 +1,11 @@
-use std::fs;
+use std::fs; // filesystem for paths
 use std::io::{self, Write};
 use std::path::Path;
 use std::thread;
-use std::time::Duration;
+use std::time::Duration; //sleep
 
-/// One thermal sensor exposed by the kernel under /sys/class/thermal.
 struct Sensor {
-    /// Human-readable sensor name, e.g. "x86_pkg_temp".
     label: String,
-    /// Temperature in degrees Celsius.
     celsius: f64,
 }
 
@@ -28,7 +25,7 @@ fn friendly_name(label: &str) -> &str {
         "BSKN" => "Base (underside)",
         "TSKN" => "Keyboard deck",
         "INT3400 Thermal" => "DPTF manager (not a sensor)",
-        other => other,
+        other => other, // ??
     }
 }
 
@@ -87,14 +84,19 @@ fn main() {
                 for s in &sensors {
                     // \x1b[K clears any leftover characters from a longer
                     // previous line before printing this one.
-                    println!("{:<28} {:>6.1} °C\x1b[K", friendly_name(&s.label), s.celsius);
+                    // very clever, thanks Claude
+                    println!(
+                        "{:<28} {:>6.1} °C\x1b[K",
+                        friendly_name(&s.label),
+                        s.celsius
+                    );
                 }
             }
             Err(e) => eprintln!("failed to read thermal zones: {e}\x1b[K"),
         }
 
         // Flush so the frame appears immediately, then wait before refreshing.
-        let _ = stdout.flush();
-        thread::sleep(Duration::from_secs(1));
+        let _ = stdout.flush(); // Write
+        thread::sleep(Duration::from_secs(1)); // sleep specifically needs Duration struct as argument - clever
     }
 }

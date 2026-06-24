@@ -1,0 +1,1326 @@
+{
+  "pipeline": "morfeusz2",
+  "available": true,
+  "version": "1.99.15",
+  "model": "Morfeusz()",
+  "error": null,
+  "load_ms": 44.54603200065321,
+  "process_ms": 1.6759606672470302,
+  "repeats": 3,
+  "sentences": [],
+  "lemmas": [
+    {
+      "text": "W",
+      "lemma": "w",
+      "lemma_candidates": [
+        "w"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "dniu",
+      "lemma": "dzień:Sm3",
+      "lemma_candidates": [
+        "dzień:Sm3"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "14",
+      "lemma": "14",
+      "lemma_candidates": [
+        "14"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "lutego",
+      "lemma": "luty:S",
+      "lemma_candidates": [
+        "luty:S",
+        "luty:A"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "ADJ"
+      ]
+    },
+    {
+      "text": "2023",
+      "lemma": "2023",
+      "lemma_candidates": [
+        "2023"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "roku",
+      "lemma": "rok:Sm3~lata",
+      "lemma_candidates": [
+        "rok:Sm3~lata",
+        "rok:Sm3~roki"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "funkcjonariusze",
+      "lemma": "funkcjonariusz",
+      "lemma_candidates": [
+        "funkcjonariusz"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Wydziału",
+      "lemma": "wydział",
+      "lemma_candidates": [
+        "wydział"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "do",
+      "lemma": "do:P",
+      "lemma_candidates": [
+        "do:P",
+        "do:S"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "NOUN"
+      ]
+    },
+    {
+      "text": "walki",
+      "lemma": "walka",
+      "lemma_candidates": [
+        "walka"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "z",
+      "lemma": "z:P",
+      "lemma_candidates": [
+        "z:P",
+        "z:T"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "X"
+      ]
+    },
+    {
+      "text": "Przestępczością",
+      "lemma": "przestępczość",
+      "lemma_candidates": [
+        "przestępczość"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Gospodarczą",
+      "lemma": "gospodarczy",
+      "lemma_candidates": [
+        "gospodarczy"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "zatrzymali",
+      "lemma": "zatrzymać",
+      "lemma_candidates": [
+        "zatrzymać"
+      ],
+      "upos": "VERB",
+      "upos_candidates": [
+        "VERB"
+      ]
+    },
+    {
+      "text": "Jana",
+      "lemma": "Jana:Sf",
+      "lemma_candidates": [
+        "Jana:Sf",
+        "Jana:Sm1",
+        "Jan:Sm1"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Marka",
+      "lemma": "marka",
+      "lemma_candidates": [
+        "marka",
+        "marek:Sm1",
+        "Marek:Sm1",
+        "marek:Sm2.m3"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Kowalskiego",
+      "lemma": "Kowalskie",
+      "lemma_candidates": [
+        "Kowalskie",
+        "Kowalski:Sm1",
+        "kowalski"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "ADJ"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "urodzonego",
+      "lemma": "urodzony:A",
+      "lemma_candidates": [
+        "urodzony:A",
+        "urodzony:S",
+        "urodzić"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ",
+        "NOUN"
+      ]
+    },
+    {
+      "text": "12",
+      "lemma": "12",
+      "lemma_candidates": [
+        "12"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "marca",
+      "lemma": "marzec",
+      "lemma_candidates": [
+        "marzec"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "1980",
+      "lemma": "1980",
+      "lemma_candidates": [
+        "1980"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "roku",
+      "lemma": "rok:Sm3~lata",
+      "lemma_candidates": [
+        "rok:Sm3~lata",
+        "rok:Sm3~roki"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "w",
+      "lemma": "w",
+      "lemma_candidates": [
+        "w"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "Płocku",
+      "lemma": "Płock",
+      "lemma_candidates": [
+        "Płock",
+        "Płocko",
+        "płocki"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "ADJ"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "Podejrzany",
+      "lemma": "podejrzany:A",
+      "lemma_candidates": [
+        "podejrzany:A",
+        "podejrzany:S",
+        "podejrzeć"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ",
+        "NOUN"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "legitymujący",
+      "lemma": "legitymować",
+      "lemma_candidates": [
+        "legitymować"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "się",
+      "lemma": "się",
+      "lemma_candidates": [
+        "się"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "dowodem",
+      "lemma": "dowód",
+      "lemma_candidates": [
+        "dowód"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "osobistym",
+      "lemma": "osobisty",
+      "lemma_candidates": [
+        "osobisty"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "o",
+      "lemma": "o:P",
+      "lemma_candidates": [
+        "o:P",
+        "o:I"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "INTJ"
+      ]
+    },
+    {
+      "text": "numerze",
+      "lemma": "numer",
+      "lemma_candidates": [
+        "numer"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "ARY",
+      "lemma": "ara",
+      "lemma_candidates": [
+        "ara",
+        "ar"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "654321",
+      "lemma": "654321",
+      "lemma_candidates": [
+        "654321"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "oraz",
+      "lemma": "oraz:C",
+      "lemma_candidates": [
+        "oraz:C",
+        "oraz:D"
+      ],
+      "upos": "CCONJ",
+      "upos_candidates": [
+        "CCONJ",
+        "ADV"
+      ]
+    },
+    {
+      "text": "numerem",
+      "lemma": "numer",
+      "lemma_candidates": [
+        "numer"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "PESEL",
+      "lemma": "PESEL",
+      "lemma_candidates": [
+        "PESEL"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "80031205512",
+      "lemma": "80031205512",
+      "lemma_candidates": [
+        "80031205512"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "jest",
+      "lemma": "być",
+      "lemma_candidates": [
+        "być"
+      ],
+      "upos": "VERB",
+      "upos_candidates": [
+        "VERB"
+      ]
+    },
+    {
+      "text": "oskarżony",
+      "lemma": "oskarżony:S",
+      "lemma_candidates": [
+        "oskarżony:S",
+        "oskarżony:A",
+        "oskarżyć"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "ADJ"
+      ]
+    },
+    {
+      "text": "o",
+      "lemma": "o:P",
+      "lemma_candidates": [
+        "o:P",
+        "o:I"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "INTJ"
+      ]
+    },
+    {
+      "text": "fałszowanie",
+      "lemma": "fałszować",
+      "lemma_candidates": [
+        "fałszować"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "dokumentacji",
+      "lemma": "dokumentacja",
+      "lemma_candidates": [
+        "dokumentacja"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "kredytowej",
+      "lemma": "kredytowy",
+      "lemma_candidates": [
+        "kredytowy"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "Zatrzymania",
+      "lemma": "zatrzymanie",
+      "lemma_candidates": [
+        "zatrzymanie",
+        "zatrzymać"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "dokonano",
+      "lemma": "dokonać",
+      "lemma_candidates": [
+        "dokonać"
+      ],
+      "upos": "VERB",
+      "upos_candidates": [
+        "VERB"
+      ]
+    },
+    {
+      "text": "w",
+      "lemma": "w",
+      "lemma_candidates": [
+        "w"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "miejscu",
+      "lemma": "miejsce",
+      "lemma_candidates": [
+        "miejsce"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "zamieszkania",
+      "lemma": "zamieszkać",
+      "lemma_candidates": [
+        "zamieszkać",
+        "zamieszkanie"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "podejrzanego",
+      "lemma": "podejrzeć",
+      "lemma_candidates": [
+        "podejrzeć",
+        "podejrzany:A",
+        "podejrzany:S"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ",
+        "NOUN"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "tj",
+      "lemma": "to_jest",
+      "lemma_candidates": [
+        "to_jest"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "w",
+      "lemma": "w",
+      "lemma_candidates": [
+        "w"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "Warszawie",
+      "lemma": "warszawa",
+      "lemma_candidates": [
+        "warszawa",
+        "Warszawa:Sf",
+        "Warszawa:Sm1"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "przy",
+      "lemma": "przy",
+      "lemma_candidates": [
+        "przy"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "ulicy",
+      "lemma": "ulica",
+      "lemma_candidates": [
+        "ulica"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Złotej",
+      "lemma": "złoty:A",
+      "lemma_candidates": [
+        "złoty:A",
+        "Złota"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ",
+        "NOUN"
+      ]
+    },
+    {
+      "text": "44",
+      "lemma": "44",
+      "lemma_candidates": [
+        "44"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "m",
+      "lemma": "M",
+      "lemma_candidates": [
+        "M",
+        "miasto",
+        "morze",
+        "męski",
+        "metr"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "12",
+      "lemma": "12",
+      "lemma_candidates": [
+        "12"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "Podczas",
+      "lemma": "podczas",
+      "lemma_candidates": [
+        "podczas"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP"
+      ]
+    },
+    {
+      "text": "przeszukania",
+      "lemma": "przeszukać",
+      "lemma_candidates": [
+        "przeszukać",
+        "przeszukanie"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "lokalu",
+      "lemma": "lokal",
+      "lemma_candidates": [
+        "lokal"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "zabezpieczono",
+      "lemma": "zabezpieczyć",
+      "lemma_candidates": [
+        "zabezpieczyć"
+      ],
+      "upos": "VERB",
+      "upos_candidates": [
+        "VERB"
+      ]
+    },
+    {
+      "text": "laptopa",
+      "lemma": "laptop",
+      "lemma_candidates": [
+        "laptop"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "marki",
+      "lemma": "marka",
+      "lemma_candidates": [
+        "marka",
+        "marek:Sm2.m3",
+        "marek:Sm1"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Dell",
+      "lemma": "Dell",
+      "lemma_candidates": [
+        "Dell"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "oraz",
+      "lemma": "oraz:C",
+      "lemma_candidates": [
+        "oraz:C",
+        "oraz:D"
+      ],
+      "upos": "CCONJ",
+      "upos_candidates": [
+        "CCONJ",
+        "ADV"
+      ]
+    },
+    {
+      "text": "telefon",
+      "lemma": "telefon",
+      "lemma_candidates": [
+        "telefon"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "komórkowy",
+      "lemma": "komórkowy",
+      "lemma_candidates": [
+        "komórkowy"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "powiązany",
+      "lemma": "powiązać",
+      "lemma_candidates": [
+        "powiązać"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "z",
+      "lemma": "z:P",
+      "lemma_candidates": [
+        "z:P",
+        "z:T"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "X"
+      ]
+    },
+    {
+      "text": "numerem",
+      "lemma": "numer",
+      "lemma_candidates": [
+        "numer"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "+",
+      "lemma": "+",
+      "lemma_candidates": [
+        "+"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "48",
+      "lemma": "48",
+      "lemma_candidates": [
+        "48"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "601",
+      "lemma": "601",
+      "lemma_candidates": [
+        "601"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "-",
+      "lemma": "-",
+      "lemma_candidates": [
+        "-"
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "234",
+      "lemma": "234",
+      "lemma_candidates": [
+        "234"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "-",
+      "lemma": "-",
+      "lemma_candidates": [
+        "-"
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "567",
+      "lemma": "567",
+      "lemma_candidates": [
+        "567"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "zarejestrowanym",
+      "lemma": "zarejestrować",
+      "lemma_candidates": [
+        "zarejestrować"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ"
+      ]
+    },
+    {
+      "text": "na",
+      "lemma": "na:P",
+      "lemma_candidates": [
+        "na:P",
+        "na:I"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "INTJ"
+      ]
+    },
+    {
+      "text": "jego",
+      "lemma": "on:S",
+      "lemma_candidates": [
+        "on:S"
+      ],
+      "upos": "PRON",
+      "upos_candidates": [
+        "PRON"
+      ]
+    },
+    {
+      "text": "żonę",
+      "lemma": "żona",
+      "lemma_candidates": [
+        "żona"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": ",",
+      "lemma": ",",
+      "lemma_candidates": [
+        ","
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "Annę",
+      "lemma": "Anna",
+      "lemma_candidates": [
+        "Anna"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "Kowalską",
+      "lemma": "kowalski",
+      "lemma_candidates": [
+        "kowalski",
+        "Kowalska"
+      ],
+      "upos": "ADJ",
+      "upos_candidates": [
+        "ADJ",
+        "NOUN"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    },
+    {
+      "text": "Jan",
+      "lemma": "Jan:Sf",
+      "lemma_candidates": [
+        "Jan:Sf",
+        "Jan:Sm1",
+        "Jana:Sf",
+        "Jany:Sn_pt",
+        "Ewangelia_świętego_Jana"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "X"
+      ]
+    },
+    {
+      "text": "Kowalski",
+      "lemma": "Kowalski:Sf",
+      "lemma_candidates": [
+        "Kowalski:Sf",
+        "Kowalski:Sm1",
+        "kowalski"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "ADJ"
+      ]
+    },
+    {
+      "text": "przyznał",
+      "lemma": "przyznać",
+      "lemma_candidates": [
+        "przyznać"
+      ],
+      "upos": "VERB",
+      "upos_candidates": [
+        "VERB"
+      ]
+    },
+    {
+      "text": "się",
+      "lemma": "się",
+      "lemma_candidates": [
+        "się"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "do",
+      "lemma": "do:P",
+      "lemma_candidates": [
+        "do:P",
+        "do:S"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "NOUN"
+      ]
+    },
+    {
+      "text": "wyłudzenia",
+      "lemma": "wyłudzić",
+      "lemma_candidates": [
+        "wyłudzić",
+        "wyłudzenie"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "kwoty",
+      "lemma": "kwota",
+      "lemma_candidates": [
+        "kwota"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "50",
+      "lemma": "50",
+      "lemma_candidates": [
+        "50"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "000",
+      "lemma": "000",
+      "lemma_candidates": [
+        "000"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "PLN",
+      "lemma": "nowy_polski_złoty",
+      "lemma_candidates": [
+        "nowy_polski_złoty"
+      ],
+      "upos": "X",
+      "upos_candidates": [
+        "X"
+      ]
+    },
+    {
+      "text": "na",
+      "lemma": "na:P",
+      "lemma_candidates": [
+        "na:P",
+        "na:I"
+      ],
+      "upos": "ADP",
+      "upos_candidates": [
+        "ADP",
+        "INTJ"
+      ]
+    },
+    {
+      "text": "szkodę",
+      "lemma": "szkoda:S",
+      "lemma_candidates": [
+        "szkoda:S"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "banku",
+      "lemma": "bank",
+      "lemma_candidates": [
+        "bank"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "PKO",
+      "lemma": "PKO",
+      "lemma_candidates": [
+        "PKO"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN"
+      ]
+    },
+    {
+      "text": "BP",
+      "lemma": "bp",
+      "lemma_candidates": [
+        "bp",
+        "BP:Sf.n_ncol",
+        "BP:Sm3.n_ncol",
+        "błogosławionej_pamięci"
+      ],
+      "upos": "NOUN",
+      "upos_candidates": [
+        "NOUN",
+        "X"
+      ]
+    },
+    {
+      "text": ".",
+      "lemma": ".",
+      "lemma_candidates": [
+        "."
+      ],
+      "upos": "PUNCT",
+      "upos_candidates": [
+        "PUNCT"
+      ]
+    }
+  ],
+  "entities": [],
+  "notes": [
+    "Morfeusz2 is a non-disambiguating morphological analyzer; it returns all candidate lemmas/tags. Sentence and NER scores are intentionally N/A.",
+    "runner=/home/jswie/Github/Playground/python/NLP/pl_benchmark/.venv/bin/python"
+  ]
+}

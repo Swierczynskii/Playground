@@ -1,0 +1,32 @@
+[project]
+name = "pl-pipeline-spacy-pl-trf"
+version = "0.1.0"
+description = "ipipan spaCy-PL-TRF (pl_nask, HerBERT) pipeline on the spaCy 3.5 stack."
+# spaCy 3.5 + spacy-transformers 1.1.x run on Python <= 3.10.
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  # Versions taken from the pl_nask 0.0.7 package metadata.
+  "spacy>=3.5,<3.6",
+  "spacy-transformers>=1.1.5,<1.2",
+  "torch",
+  "morfeusz2",       # pl_nask's tokenizer imports morfeusz2 at runtime
+  "pexpect",         # pl_nask.morf_interface imports pexpect at runtime
+  # thinc's cp310 wheel needs numpy>=1.20 ABI; without this pin uv resolves an
+  # older numpy and thinc fails with a dtype-size binary-incompatibility error.
+  "numpy>=1.21,<1.24",
+  "pl-bench-core",
+]
+
+# Runner script only; the pl_nask model wheel is fetched separately by setup.sh.
+[tool.uv]
+package = false
+
+# Pull CPU-only torch to avoid large CUDA wheels.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+pl-bench-core = { path = "../../shared", editable = true }
